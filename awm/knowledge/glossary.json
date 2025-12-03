@@ -1,0 +1,5 @@
+{
+  "AWM": "Autonomous Workflow Model — a prompt- and schema-driven multi-agent workflow running inside ChatGPT.",
+  "AWM Task Envelope": "The small JSON-like structure that describes what AWM should do.",
+  "AWM Core Update": "A special task where the output is updated AWM core files and a git snippet."
+}

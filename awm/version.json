@@ -1,0 +1,4 @@
+{
+  "version": "0.2.0",
+  "notes": "ChatGPT-native AWM core. All system prompts, schemas, and knowledge live in this repository. Execution occurs inside ChatGPT. Updates to AWM files are applied locally via git and reloaded from GitHub."
+}

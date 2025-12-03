@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "paths": {
+    "planner": "awm/prompts/planner.md",
+    "reviewer": "awm/prompts/reviewer.md",
+    "execution": "awm/prompts/execution.md",
+    "persona": "awm/prompts/persona.md",
+    "meta": "awm/prompts/meta.md",
+    "knowledge": "awm/prompts/knowledge.md",
+    "task_protocol": "awm/schema/task_protocol.json",
+    "agents": "awm/schema/agents.json",
+    "glossary": "awm/knowledge/glossary.json",
+    "memory": "awm/knowledge/memory.json"
+  }
+}

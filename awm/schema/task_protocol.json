@@ -1,0 +1,35 @@
+{
+  "description": "Canonical shape of AWM task envelopes for v0.2.0.",
+  "fields": {
+    "task_type": {
+      "type": "string",
+      "enum": ["awm_task", "update_core"],
+      "description": "Whether this is a normal task or an AWM core update."
+    },
+    "task": {
+      "type": "string",
+      "description": "Short natural language description of the goal."
+    },
+    "context": {
+      "type": ["string", "null"],
+      "description": "Optional additional context, audience, constraints, etc."
+    },
+    "inputs": {
+      "type": "object",
+      "description": "Task-specific inputs or references (e.g., file paths, text blobs)."
+    },
+    "constraints": {
+      "type": "object",
+      "description": "Hard or soft constraints (style, length, etc.)."
+    },
+    "output_format": {
+      "type": "string",
+      "description": "Requested output format (e.g., markdown, json, text)."
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What success looks like for this task."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "planner": {
+    "description": "Generates a structured, minimal, logically ordered plan from the envelope."
+  },
+  "reviewer": {
+    "description": "Validates or corrects the plan before execution."
+  },
+  "executor": {
+    "description": "Executes the approved plan and produces the final artifact or core update."
+  }
+}
